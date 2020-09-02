@@ -1168,6 +1168,17 @@ p.form-message.error {
     opacity: 1;
     color: #999; }
 
+    .contact-detail i {
+      font-size: 30px;
+      width: 96px;
+      height: 96px;
+      line-height: 96px;
+    }
+    
+    .contact-loader {
+      display: none;
+    }
+
 .list-unstyled li {
   font-size: 13px;
   margin-left: 2px;
@@ -1221,7 +1232,10 @@ p.form-message.error {
 @media (max-width: 767px) {
   .footer-widget {
     padding-top: 30px;
-    padding-bottom: 80px; } }
+    padding-bottom: 80px;
+  } }
+
+  
 
 .footer-logo a img {
   width: 140px; }
