@@ -149,7 +149,7 @@ p {
 
 /*===== All Section Title Style =====*/
 .section-title .sub-title {
-  font-size: 18px;
+  font-size: 50px;
   color: #EB3656;
   text-transform: uppercase; }
   @media (max-width: 767px) {
@@ -1025,7 +1025,7 @@ p {
 ===========================*/
 .testimonial-area {
   position: relative; }
-  @media (max-width: 767px) {
+  @media (max-width: 850px) {
     .testimonial-area {
       padding-top: 80px;
       padding-bottom: 80px; } }
@@ -1054,13 +1054,14 @@ p {
         right: 35px; } }
 
 .testimonial-bg {
+  padding: 325px 30px;
   position: relative;
   z-index: 9; }
 
 .testimonial-active {
   background-color: #EB3656;
-  padding: 60px 30px; }
-  @media (max-width: 767px) {
+  padding: 20px 30px; }
+  @media (max-width: 100px) {
     .testimonial-active {
       padding: 30px 15px; } }
 
